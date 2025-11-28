@@ -1,0 +1,55 @@
+html{
+    background: rgb(224, 255, 111);
+}
+
+div {
+      height: 200px;
+      width: 300px;
+}
+    
+
+#first {
+      background-color: cadetblue;
+      padding: 20px;
+      border: 10px solid black;
+}
+
+h1{
+    color: red;
+    background-color: skyblue;
+    font-size: 35px;
+    text-align: center;
+}
+
+p1{
+    font-weight: bold;
+}
+
+p2{
+    font-family: cursive;
+}
+
+.lannister{
+    color: red;
+}
+
+.witcher{
+    color: rgba(88, 88, 88, 0.521);
+}
+
+.stark{
+    color: rgb(31, 231, 238);
+}
+
+#list{
+    color: aqua;
+}
+
+h4[draggable]{
+    color: blueviolet;
+}
+
+img{
+    height: 300px;
+    width: 300px;
+}

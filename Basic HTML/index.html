@@ -3,6 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <title>Simon</title>
+        <link rel="stylesheet" href="style.css">
     </head>
 
     <body>
@@ -10,21 +11,23 @@
 <h2>Chapter 1 Pharagraph</h2>
 <h3>Section 1</h3>
 
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br /> 
+<div id="first">
+<p1>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br /> 
 Nam fermentum et velit eget efficitur. <br /> 
 Suspendisse dui elit, eleifend id convallis id, dignissim sit amet sapien. Cras cursus orci eros, ac porta orci imperdiet id. Mauris placerat justo sed ante dictum hendrerit. <br /> 
 Aliquam dictum facilisis urna, vitae suscipit magna feugiat at. Phasellus ac vestibulum arcu. Aenean lacinia nisi nec risus viverra congue.<br /> 
-</p>
+</p1>
+</div>
 <hr />
-<p>Cras in diam enim. 
+<p2>Cras in diam enim. 
 Curabitur eu massa sit amet massa facilisis auctor et nec leo. 
 Aliquam tincidunt dolor tortor, non convallis libero vehicula non. 
 Donec ac cursus justo. 
 Pellentesque ullamcorper lorem in felis condimentum, vestibulum euismod libero lobortis. Aenean commodo tortor risus. 
 Phasellus at neque auctor sapien viverra rhoncus. Interdum et malesuada fames ac ante ipsum primis in faucibus. 
 Nulla porta metus eget ipsum tristique, eu posuere nulla porttitor. Aliquam aliquet dui in lectus tempus aliquet. Fusce consectetur dictum luctus. Aenean laoreet cursus tincidunt.
-</p><hr />
-<p>
+</p2><hr />
+<p3>
 Sed sem est, malesuada et sapien et, venenatis feugiat ipsum. 
 Cras quis dolor vel nibh eleifend pretium sit amet nec metus. 
 Praesent feugiat faucibus ipsum non ullamcorper. 
@@ -32,7 +35,7 @@ Donec condimentum turpis ut enim semper, a finibus metus hendrerit.
 Praesent facilisis lectus ut neque scelerisque tristique. 
 Integer eget porta leo. Sed lacinia ante sit amet ipsum semper facilisis. Fusce in feugiat velit. 
 Nulla dapibus libero turpis, vel eleifend est sagittis vel.
-</p>
+</p3>
 <hr />
 <p>
 Sed sem est, malesuada et sapien et, venenatis feugiat ipsum. 
@@ -44,7 +47,7 @@ Integer eget porta leo. Sed lacinia ante sit amet ipsum semper facilisis. Fusce 
 Nulla dapibus libero turpis, vel eleifend est sagittis vel.
 </p>
 <hr />
-<h2>Chapter 2 List</h2>
+<h2 id="list">Chapter 2 List</h2>
 <h3>Section 1 Unordered List</h3>
 <h3>Ingredients</h3>
 <ul>
@@ -88,7 +91,7 @@ Nulla dapibus libero turpis, vel eleifend est sagittis vel.
         <li>Lalu jambak rashaad</li>
     </ul>
 </ol>
-<h4>Diagram</h4>
+<h4 draggable="true">BISA DI DRAG</h4>
 <h2>Chapter 3 Anchor</h2>
 <h3>Section 1 Link to Google</h3>
 <a href="https://www.google.com/">Ini buat link ke google</a>
@@ -97,16 +100,16 @@ Nulla dapibus libero turpis, vel eleifend est sagittis vel.
 
 <h2>Chapter 4 Link Page</h2>
 <h3>Section 1 Link Page ke current source</h3>
-<a href="./about.html" alt="Grayscale Image">Ini Grayscale Image</a>
+<a href="./about.html">About Me</a>
 
 <h2>Chapter 5 Image</h2>
 <h3>Section 1 Link to Image in internet</h3>
 <img src="https://picsum.photos/200/300?grayscale" alt="Grayscale Image">Ini Grayscale Image</img>
-<h3>Section 2 Link to Internal Upper Source</h3>
+<h3 class="lannister">Section 2 Link to Internal Upper Source</h3>
 <img src="../House_Lannister.webp" alt="Lannister Image">Ini Lannister Image</img>
-<h3>Section 3 Link to Internal Current Source</h3>
+<h3 class="witcher">Section 3 Link to Internal Current Source</h3>
 <img src=".\d2ey5eat8e741.jpg" alt="The Witcher Image">Ini The Witcher Image</img>
-<h3>Section 4 Link to Internal Source</h3>
+<h3 class="stark">Section 4 Link to Internal Source</h3>
 <img src="Image\bbb958e565e3592e2e8a284e7f50a242.jpg" alt="Stark Image">Ini Stark Image</img>
 
 
